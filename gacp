@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Shorthand for 'git add . && git commit -m "<commit_message>" && git push'
+
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <commit_message>"
+    exit 1
+fi
+
+git add . &&
+git commit -m "$1" &&
+git push &&
+echo -e "\n|> git add/commit/push successful!"
