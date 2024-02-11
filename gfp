@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# 'git fetch && git pull' shortform
+
+git fetch &&
+git pull &&
+echo -e "\n|> git fetch/pull successful!"
