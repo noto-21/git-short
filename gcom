@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# 'git commit -m "Message"' shortform
+# 'git commit -m <commit_message>' shortform
 
 git commit -m "$@"

@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# 'git add .*' shortform
+# 'git add <files>' shortform
 
 git add "$@"
