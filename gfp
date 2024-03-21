@@ -2,6 +2,8 @@
 
 # 'git fetch && git pull' shortform
 
+echo -e "\n|> Fetching from remote repo..." &&
 git fetch &&
+echo -e "\n|> Pulling to local repo..." &&
 git pull &&
-echo -e "\n|> git fetch/pull successful!"
+echo -e "\n|-> git fetch/pull successful!"

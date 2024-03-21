@@ -1,13 +1,16 @@
 #!/bin/bash
 
-# Shorthand for 'git add . && git commit -m "<commit_message>" && git push'
+# Shorthand for 'git add --all && git commit -m "<commit_message>" && git push'
 
 if [ $# -eq 0 ]; then
     echo "Usage: $0 <commit_message>"
     exit 1
 fi
 
-git add . &&
+echo -e "\n|> Adding all..." &&
+git add --all &&
+echo -e "\n|> Committing to local repo..." &&
 git commit -m "$1" &&
+echo -e "\n|> Pushing to remote repo..." &&
 git push &&
-echo -e "\n|> git add/commit/push successful!"
+echo -e "\n|-> git add/commit/push successful!"
