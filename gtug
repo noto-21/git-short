@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Shorthand for pull then push
+
+gfp &&
+gacp "$@";
