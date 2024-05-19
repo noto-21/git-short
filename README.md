@@ -1,8 +1,8 @@
 # git-short
 
-A group of scripts that abbreviate common git commands.  To be placed in `/usr/local/bin`, via root permission (i.e., `sudo`), for ease of use.
+A group of scripts that abbreviate common git commands.  To be placed in `/usr/local/bin`, via `sudo`, for ease of use.
 
-If any problems occur with running, try updating the file permissions with `sudo chmod +x /usr/local/bin/git-short_script`.
+If any problems occur with running, try updating the file permissions with `sudo chmod +x /usr/local/bin/<git-short_script_name>`.
 
 ## Prerequisites
 
